@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		466E59DE2D0F2F67002CA889 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 466E59DD2D0F2F67002CA889 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		466E59BF2D0F2BA1002CA889 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		466E59AB2D0F2BA0002CA889 /* TimeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466E59BE2D0F2BA1002CA889 /* TimeItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		466E59C82D0F2BA1002CA889 /* TimeItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466E59DD2D0F2F67002CA889 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		466E59A22D0F2BA0002CA889 = {
 			isa = PBXGroup;
 			children = (
+				466E59DD2D0F2F67002CA889 /* README.md */,
 				466E59AD2D0F2BA0002CA889 /* TimeIt */,
 				466E59C12D0F2BA1002CA889 /* TimeItTests */,
 				466E59CB2D0F2BA1002CA889 /* TimeItUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466E59DE2D0F2F67002CA889 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
